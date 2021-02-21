@@ -1,0 +1,8 @@
+{
+    "my_email" : "gogimar92@gmail.com",
+    "incorrect_email" : "boom.boom@",
+    "word_to_search" : "dresses",
+    "unable_to_log_in_message" : "Resource Limit Is Reached",
+    "incorrect_email_message" : "Invalid email address.",
+    "incorrect_password_message" : "Authentication failed."
+}
