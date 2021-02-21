@@ -25,7 +25,7 @@ def test_SignIn():
     ## 3) Click to Sign In in Home page
 
         object_home = Home(browser)
-        sign_in_page = object_home.OpenSignIn(browser)
+        object_home.OpenSignIn(browser)
 
     ## 4) Fill email address and password
         object_signin = Sign_In(browser)
@@ -46,5 +46,5 @@ def test_SignIn():
     finally:
         object_lib.CloseBrowser(browser)
 
-# test_SignIn()
+#test_SignIn()
 
