@@ -38,11 +38,10 @@ class LIB():
             print('Something went wrong!')
 
     def MoveToElement(self, browser, element):
-        try:
-            action = ActionChains(browser)
-            action.MoveToElement(element).perform()            
-        except:
-            print('Something went wrong!')       
+        
+        action = ActionChains(browser)
+        action.move_to_element(element).perform()            
+           
 
     def WaitForElements(self, browser, elements):
         try:
